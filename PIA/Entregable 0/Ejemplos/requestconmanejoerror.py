@@ -9,3 +9,6 @@ try:
         print("Error en la API:", response.status_code)
 except Exception as e:
     print("Error de conexión:", e)
+#else
+#finally
+print("SIgue aquí el código")
