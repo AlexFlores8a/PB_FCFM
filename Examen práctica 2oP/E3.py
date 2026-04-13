@@ -8,3 +8,15 @@ for ele in A:
     B.add(ele**2)
 inter = A.intersection(B)
 print(inter)
+
+# Ejercicio 3 — Conjuntos
+# Crea un conjunto B con los cuadrados de A y calcula la intersección
+
+A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+B = set()
+
+for ele in A:
+    B.add(ele**2)
+
+inter = A.intersection(B)
+print(inter)
