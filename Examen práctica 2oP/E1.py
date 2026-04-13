@@ -13,3 +13,14 @@ while i < len(datos):
     i += 1
 print(datos)
 
+datos = [3, 10, 5, 10, 2, 8, 3, 7]
+datos.sort(reverse=True)
+
+i = 0
+while i < len(datos) - 1:
+    if datos[i] == datos[i + 1]:
+        datos.pop(i + 1)  # elimina el duplicado
+    else:
+        i += 1
+
+print(datos)
